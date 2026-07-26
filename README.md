@@ -57,7 +57,7 @@ This project intentionally differs from a scripted, requirement-based testing ap
 
 ## 👤 Tester
 
-**Azeem** — [LinkedIn](#) | [GitHub](#)
+**Azeem Mohamed Husain** — [LinkedIn](#) | [GitHub](#)
 
 ---
 *Testing performed against a publicly available practice site (AcademyBugs.com by uTest), intentionally designed for QA skill-building and bug-hunting practice.*
