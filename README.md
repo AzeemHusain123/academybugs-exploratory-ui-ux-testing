@@ -30,14 +30,15 @@ Unscripted exploratory testing of [AcademyBugs.com](https://academybugs.com) —
 | Performance | 2 | Billing address section stuck on an unresolved loading spinner |
 | Crash | 3 | Three different actions (currency change, password retrieval, comment posting) each triggered a ~5-second site lockout |
 
-Full details, expected vs. actual results, and screenshot evidence for each are in [`docs/AcademyBugs_Bug_Reports.md`](docs/AcademyBugs_Bug_Reports.md).
+Full details, expected vs. actual results, and screenshot evidence for each are in [Bug Reports Part 1](docs/AcademyBugs_Bug_Reports_Part_01.pdf) and [Part 2](docs/AcademyBugs_Bug_Reports_Part_02.pdf).
 
 ## 📁 Repository Structure
 
 ```
 academybugs-exploratory-ui-ux-testing/
 ├── docs/
-│   ├── AcademyBugs_Bug_Reports.pdf
+│   ├── AcademyBugs_Bug_Reports_Part_01.pdf
+│   ├── AcademyBugs_Bug_Reports_Part_02.pdf
 │   └── AcademyBugs_Exploratory_Testing_Summary.pdf
 └── evidence/
     └── (18 screenshots referenced in the bug reports)
@@ -45,9 +46,10 @@ academybugs-exploratory-ui-ux-testing/
 
 ## 📄 Documents
 
-- **[Bug Reports](docs/AcademyBugs_Bug_Reports.pdf)** — All 18 findings with category, severity, steps to reproduce, expected/actual results, and embedded screenshot evidence.
+- **[Bug Reports — Part 1](docs/AcademyBugs_Bug_Reports_Part_01.pdf)** — Content Bugs and Visual Bugs, with steps to reproduce, expected/actual results, and embedded screenshot evidence.
+- **[Bug Reports — Part 2](docs/AcademyBugs_Bug_Reports_Part_02.pdf)** — Functional, Performance, and Crash Bugs, plus the Summary Table.
 - **[Exploratory Testing Summary](docs/AcademyBugs_Exploratory_Testing_Summary.pdf)** — Test charter, approach, heuristics-to-findings mapping, session results, and coverage gaps.
-- The `evidence/` folder holds the original screenshots as a backup reference, since they're already embedded directly in the Bug Reports PDF.
+- The `evidence/` folder holds the original screenshots as a backup reference, since they're already embedded directly in the Bug Reports PDFs.
 
 ## 🛠️ Methodology Note
 
